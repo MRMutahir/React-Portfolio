@@ -38,3 +38,12 @@
 .s-right {
   position: relative;
 }
+
+.s-right > * {
+  position: absolute;
+}
+
+.s-right > :nth-child(2) {
+  top: 20rem;
+  
+}
