@@ -22,11 +22,13 @@ function Services() {
         <button className="button s-button">Download CV</button>
       </div>
       <div className="s-right cards">
-        <Card
-          emoji={Glasses}
-          Heading="Web Design"
-          Details="Html, Css , Bootstrap, Figam"
-        />
+        <div style={{ left: "14rem" }}>
+          <Card
+            emoji={Glasses}
+            Heading="Web Design"
+            Details="Html, Css , Bootstrap, Figam"
+          />
+        </div>
       </div>
     </div>
   );
