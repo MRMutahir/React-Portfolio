@@ -1,7 +1,8 @@
 import "./App.css";
-import Navbra from "../src/Components/Navbar/Navbar.jsx";
+import Navbra from "../src/Components/Navbar/Navbar";
 import Intro from "./Components/INTRO/Intro";
 import Services from "./Components/Services/Services";
+import Experience from "./Components/Experience/Experience";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <div className="App">
         <Navbra />
         <Intro />
-        <Services/>
+        <Services />
+        <Experience />
       </div>
     </>
   );

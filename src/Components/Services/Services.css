@@ -43,7 +43,6 @@
   position: absolute;
 }
 
-.s-right > :nth-child(2) {
+/* .s-right > :nth-child(2) {
   top: 20rem;
-  
-}
+} */
