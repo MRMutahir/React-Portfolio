@@ -4,6 +4,8 @@ import Intro from "./Components/INTRO/Intro";
 import Services from "./Components/Services/Services";
 import Experience from "./Components/Experience/Experience";
 import RecentProject from "./Components/RecentProject/RecentProject";
+import ProgressBar from "./Components/ProgressBar/ProgressBar";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
         <Services />
         <Experience />
         <RecentProject />
+        <ProgressBar />
+        <Contact />
       </div>
     </>
   );
