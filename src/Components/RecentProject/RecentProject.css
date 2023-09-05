@@ -1,0 +1,34 @@
+.r-Project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  flex-direction: column;
+}
+
+.r-Project > :nth-child(1) {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black);
+}
+.r-Project > :nth-child(2) {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--orange);
+}
+.r-Project .swiper {
+  overflow: visible !important;
+}
+.Portfolio-slider {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.Portfolio-slider .swiper-slide {
+  width: 20rem;
+}
+.r-Project img {
+  border-radius: 20px;
+  width: 19rem;
+  filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+}
