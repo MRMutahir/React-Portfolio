@@ -6,6 +6,8 @@ import Experience from "./Components/Experience/Experience";
 import RecentProject from "./Components/RecentProject/RecentProject";
 import ProgressBar from "./Components/ProgressBar/ProgressBar";
 import Contact from "./Components/Contact/Contact";
+import Footer from "./Components/Footer/Footer";
+import Toggle from "./Components/Toggle/Toggle";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <RecentProject />
         <ProgressBar />
         <Contact />
+        <Footer />
+        <Toggle />
       </div>
     </>
   );

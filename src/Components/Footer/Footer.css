@@ -1,0 +1,29 @@
+/* Footer.css */
+.footer {
+  background: linear-gradient(to right, #ffcc00, #ff9900); /* Yellow gradient */
+  /* 100% viewport width */
+  width: 100%s; /* 100% viewport width */
+  padding: 20px; /* Add padding to adjust spacing */
+  height: 100px;
+  border-radius: 10px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-link {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #000; /* Default icon color */
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.icon-link:hover {
+  transform: rotate(360deg);
+  color: #007bff; /* Change color on hover */
+  cursor: pointer;
+}
