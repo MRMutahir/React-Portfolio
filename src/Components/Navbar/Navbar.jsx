@@ -1,12 +1,16 @@
 import React from "react";
 import "./Navbar.css";
+import Toggle from "../Toggle/Toggle";
 
 function Navbra() {
   return (
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">Muhammad Mutahir</div>
-        <span>toggel</span>
+        <span>
+          {" "}
+          <Toggle />
+        </span>
       </div>
       <div className="n-right">
         <div className="n-list">

@@ -5,7 +5,7 @@ import "../Footer/Footer.css"; // Create a CSS file for styling
 const Footer = () => {
   return (
     <footer>
-      <div className="footer-icons footer ">
+      <div className="footer-icons footer">
         <a
           href="https://github.com"
           target="_blank"
@@ -58,8 +58,8 @@ const Footer = () => {
           <i className="fas fa-home"></i>
         </a>
       </div>
+      {/* <h1>SALAM</h1> */}
     </footer>
-    // <h1>SALAM</h1>
   );
 };
 

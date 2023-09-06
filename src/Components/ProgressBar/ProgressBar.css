@@ -1,133 +1,133 @@
 /* ProgressBar.css */
 .app {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 .progress-container {
-    width: 100%;
-    margin: 20px 0;
-    text-align: left;
-    padding: 5px;
+  width: 100%;
+  margin: 20px 0;
+  text-align: left;
+  padding: 5px;
 }
 
 .progress-container h2 {
-    margin-bottom: 5px;
-    color: #333;
+  margin-bottom: 5px;
+  color: #333;
 }
 
 /* Define different background colors for each progress bar */
 .progress:nth-child(1) div {
-    background-color: #ffc107;
-    /* Yellow */
+  background-color: #ffc107;
+  /* Yellow */
 }
 
 .progress:nth-child(2) div {
-    background-color: #2196f3;
-    /* Green */
+  background-color: #2196f3;
+  /* Green */
 }
 
 .progress:nth-child(3) div {
-    background-color: #42a5f5;
-    /* Blue */
+  background-color: #42a5f5;
+  /* Blue */
 }
 
 .progress:nth-child(4) div {
-    background-color: #4caf50;
-    /* Green */
+  background-color: #4caf50;
+  /* Green */
 }
 
 .progress:nth-child(5) div {
-    background-color: #f44336;
-    /* Red */
+  background-color: #f44336;
+  /* Red */
 }
 
 .progress:nth-child(6) div {
-    background-color: #9c27b0;
-    /* Purple */
+  background-color: #9c27b0;
+  /* Purple */
 }
 
 .progress:nth-child(7) div {
-    background-color: #673ab7;
-    /* Deep Purple */
+  background-color: #673ab7;
+  /* Deep Purple */
 }
 
 .progress:nth-child(8) div {
-    background-color: #3f51b5;
-    /* Indigo */
+  background-color: #3f51b5;
+  /* Indigo */
 }
 
 .progress:nth-child(9) div {
-    background-color: #2196f3;
-    /* Light Blue */
+  background-color: #2196f3;
+  /* Light Blue */
 }
 
 /* Add more colors as needed for other progress bars */
 
 /* Animate the font size and font weight for all h2 elements within .progress-container */
 .progress-container h2 {
-    animation: h2Animation 1s ease-in-out alternate infinite;
-    font-size: 20px;
-    font-weight: normal;
-    color: var(--orange);
-    /* Gray to Orange */
+  animation: h2Animation 1s ease-in-out alternate infinite;
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--orange);
+  /* Gray to Orange */
 }
 
 @keyframes h2Animation {
-    from {
-        font-size: 20px;
-        font-weight: bold;
-    }
+  from {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-    to {
-        font-size: 24px;
-        font-weight: 700;
-    }
+  to {
+    font-size: 24px;
+    font-weight: 700;
+  }
 }
 
 .progress div {
-    height: 20px;
-    width: 0;
-    /* Set the initial width to 0 */
-    transition: width 1s;
-    /* Animation duration */
+  height: 20px;
+  width: 0;
+  /* Set the initial width to 0 */
+  transition: width 1s;
+  /* Animation duration */
 }
 
 .progress-text {
-    display: block;
-    margin-top: 5px;
-    font-weight: bold;
-    color: #333;
+  display: block;
+  margin-top: 5px;
+  font-weight: bold;
+  color: #333;
 }
 
 /* Styling for the h1 element */
 h1 {
-    font-family: "Verdana", sans-serif;
-    /* Use the "Verdana" font or fallback to a sans-serif font */
-    background-image: linear-gradient(to right, #4286f4, #ff0066);
-    /* Gradient background color */
-    -webkit-background-clip: text;
-    /* Clip text to the background */
-    color: transparent;
-    /* Hide the original text color */
-    animation: h1Animation 3s ease-in-out infinite alternate;
-    /* Font size animation */
-    font-weight: 400;
-    /* Initial font weight */
+  font-family: "Verdana", sans-serif;
+  /* Use the "Verdana" font or fallback to a sans-serif font */
+  background-image: linear-gradient(to right, #4286f4, #ff0066);
+  /* Gradient background color */
+  -webkit-background-clip: text;
+  /* Clip text to the background */
+  color: transparent;
+  /* Hide the original text color */
+  animation: h1Animation 3s ease-in-out infinite alternate;
+  /* Font size animation */
+  font-weight: 400;
+  /* Initial font weight */
 }
 
 @keyframes h1Animation {
-    from {
-        font-size: 24px;
-        /* Initial font size */
-        font-weight: 400;
-        /* Initial font weight */
-    }
+  from {
+    font-size: 24px;
+    /* Initial font size */
+    font-weight: 400;
+    /* Initial font weight */
+  }
 
-    to {
-        font-size: 36px;
-        /* Target font size */
-        font-weight: 700;
-        /* Bold font weight */
-    }
+  to {
+    font-size: 36px;
+    /* Target font size */
+    font-weight: 700;
+    /* Bold font weight */
+  }
 }

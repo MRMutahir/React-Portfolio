@@ -5,8 +5,15 @@ import mern from "../../mrimages/mern.png";
 import figma from "../../mrimages/figam-removebg-preview.png";
 import Glasses from "../../img/glasses.png";
 import Resume from "../Services/mern stack.pdf_20230904_141453_0000.pdf.pdf";
+import { motion } from "framer-motion";
 // console.log(Resume);
 function Services() {
+  // transition
+  const transition = {
+    duration: 1,
+    type: "spring",
+  };
+
   return (
     <div className="Services">
       <div className="s-left awesome">
@@ -26,30 +33,45 @@ function Services() {
       </div>
       <div className="s-right cards">
         {/* Card 1 */}
-        <div style={{ left: "14rem" }}>
+        <motion.div
+          initial={{ left: "25rem" }}
+          whileInView={{ left: "14rem" }}
+          transition={transition}
+          style={{ left: "14rem" }}
+        >
           <Card
             emoji={Glasses}
             Heading="Web Design"
             Details="Html, Css , Bootstrap, Figam"
           />
-        </div>
+        </motion.div>
         {/* Card 2 */}
-        <div style={{ top: "12rem", left: "-4rem" }}>
+        <motion.div
+          initial={{ left: "-11rem", top: "12rem" }}
+          whileInView={{ left: "-4rem" }}
+          transition={transition}
+          style={{ top: "12rem", left: "-4rem" }}
+        >
           <Card
             emoji={figma}
             Heading="Web Design"
             Details="Html, Css , Bootstrap, Figam"
           />
-        </div>
+        </motion.div>
         {/* Card 3 */}
 
-        <div style={{ top: "19rem", left: "12rem" }}>
+        <motion.div
+          initial={{ top: "19rem", left: "25rem" }}
+          whileInView={{ left: "12rem" }}
+          transition={transition}
+          style={{ top: "19rem", left: "12rem" }}
+        >
           <Card
             emoji={mern}
             Heading="MERN  Developer "
             Details="MongoDB, Express.js, React, Node.js"
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );
