@@ -2,7 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import Toggle from "../Toggle/Toggle";
 
-function Navbra() {
+function Navbar() {
   return (
     <div className="n-wrapper">
       <div className="n-left">
@@ -28,4 +28,4 @@ function Navbra() {
   );
 }
 
-export default Navbra;
+export default Navbar;

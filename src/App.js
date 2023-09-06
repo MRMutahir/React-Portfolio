@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbra from "../src/Components/Navbar/Navbar";
+import Navbar from "../src/Components/Navbar/Navbar";
 import Intro from "./Components/INTRO/Intro";
 import Services from "./Components/Services/Services";
 import Experience from "./Components/Experience/Experience";
@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <Navbra />
+        <Navbar />
         <Intro />
         <Services />
         <Experience />
@@ -21,7 +21,6 @@ function App() {
         <ProgressBar />
         <Contact />
         <Footer />
-       
       </div>
     </>
   );
