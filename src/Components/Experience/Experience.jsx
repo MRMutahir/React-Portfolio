@@ -8,7 +8,7 @@ import Linkedin from "../../img/linkedin2.png";
 import { motion } from "framer-motion";
 function Experience() {
   return (
-    <div className="experience" id="experience">
+    <div className="experience" id="Experience">
       <div className="s-left awesome w-left">
         <span>Started Working</span>
         <span id="Services">Brands & Clients</span>

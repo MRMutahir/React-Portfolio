@@ -30,6 +30,9 @@
   margin-right: 4rem;
   list-style: none;
 }
+li {
+  cursor: pointer;
+}
 
 .n-list > ul > li:hover {
   color: var(--orange);

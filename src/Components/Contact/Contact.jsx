@@ -29,7 +29,7 @@ function Contact() {
       );
   };
   return (
-    <div className="contact-div" id="contact">
+    <div className="contact-div" id="Contact">
       <div className="contact-name">
         <span>Get in touch </span>
         <span>Contact me</span>
