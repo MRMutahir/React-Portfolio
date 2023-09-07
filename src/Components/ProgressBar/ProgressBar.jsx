@@ -15,7 +15,7 @@ const App = () => {
   ]);
 
   return (
-    <div className="app">
+    <div className="progressbar" id="ProgressBar">
       <h1>Progress Bars Example</h1>
       {progressData.map((item, index) => (
         <div key={index} className="progress-container">

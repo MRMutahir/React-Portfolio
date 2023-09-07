@@ -15,7 +15,7 @@ function Services() {
   };
 
   return (
-    <div className="Services">
+    <div className="Services" id="services">
       <div className="s-left awesome">
         <span>My Awesome</span>
 

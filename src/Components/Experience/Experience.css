@@ -1,4 +1,4 @@
-.Work {
+.experience {
   padding: 0 3rem 0 3rem;
   display: flex;
   height: 90vh;
@@ -74,14 +74,14 @@
 }
 .blueCircle {
   background: #1949b8;
-  left: 17rem;
+  left: 22rem;
   top: 0rem;
   /* z-index: -3; */
 }
 .yellowCircle {
   background: #f5c32c;
-  left: 17rem;
-  top: 8rem;
+  left: 22rem;
+  top: 10rem;
   /* z-index: -3; */
   /* z-index: 2; */
 }

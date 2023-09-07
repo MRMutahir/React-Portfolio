@@ -9,7 +9,7 @@ import MusicApp from "../../img/musicapp.png";
 
 function RecentProject() {
   return (
-    <div className="r-Project">
+    <div className="r-Project" id="recentProject">
       <span>Recent Project</span>
       <span>Portfolio</span>
       <Swiper

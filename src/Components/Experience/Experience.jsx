@@ -5,14 +5,13 @@ import Fiverr from "../../img/fiverr.png";
 import Facebook from "../../img/Facebook.png";
 import instagram2 from "../../img/instagram2.png";
 import Linkedin from "../../img/linkedin2.png";
+import { motion } from "framer-motion";
 function Experience() {
   return (
-    <div className="Work">
+    <div className="experience" id="experience">
       <div className="s-left awesome w-left">
         <span>Started Working</span>
-
         <span id="Services">Brands & Clients</span>
-
         <span className="text">
           {" "}
           Works for All these
@@ -22,7 +21,13 @@ function Experience() {
         <button className="button s-button">Hire me </button>
       </div>
       <div className="w-right">
-        <div className="w-mainCircle">
+        <motion.div
+          initial={{ rotate: 45 }}
+          whileInView={{ rotate: 0 }}
+          viewport={{ margin: "-40px" }}
+          transition={{ duration: 3.5, type: "spring" }}
+          className="w-mainCircle"
+        >
           <div className="innerCircle">
             <img src={Upwork} alt="" />
           </div>
@@ -40,9 +45,9 @@ function Experience() {
           </div>
 
           {/* background Circles */}
-          <div className="w-backCircle blueCircle"></div>
-          <div className="w-backCircle yellowCircle"></div>
-        </div>
+        </motion.div>
+        <div className="w-backCircle blueCircle"></div>
+        <div className="w-backCircle yellowCircle"></div>
       </div>
     </div>
   );

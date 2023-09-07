@@ -11,6 +11,8 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import Floating from "../Floating/Floating.jsx";
 import { motion } from "framer-motion";
+import MuhammadMutahir from "../../mrimages/MuhammadMutahir.png";
+import pic2 from "../../mrimages/pic2.png";
 import { type } from "@testing-library/user-event/dist/type";
 
 function Intro() {
@@ -39,7 +41,7 @@ function Intro() {
         {" "}
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={pic2} alt="" />
         <motion.img
           initial={{ left: "-36%" }}
           whileInView={{ left: "-24% " }}

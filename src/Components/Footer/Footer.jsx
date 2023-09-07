@@ -1,6 +1,7 @@
 // Footer.js
 import React from "react";
 import "../Footer/Footer.css"; // Create a CSS file for styling
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
@@ -54,8 +55,11 @@ const Footer = () => {
         >
           <i className="fab fa-whatsapp"></i>
         </a>
+
         <a href="/" className="icon-link">
-          <i className="fas fa-home"></i>
+          <Link smooth={true} spy={true} to="Navbar" activeClass="activeClass">
+            <i className="fas fa-home"></i>
+          </Link>
         </a>
       </div>
       {/* <h1>SALAM</h1> */}
