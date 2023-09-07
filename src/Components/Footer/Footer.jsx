@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="footer-icons footer">
         <a
-          href="https://github.com"
+          href="https://github.com/MRMutahir"
           target="_blank"
           rel="noopener noreferrer"
           className="icon-link"
@@ -24,7 +24,7 @@ const Footer = () => {
           <i className="fab fa-facebook"></i>
         </a>
         <a
-          href="https://twitter.com"
+          href="https://twitter.com/MutahirKareem"
           target="_blank"
           rel="noopener noreferrer"
           className="icon-link"
@@ -40,7 +40,7 @@ const Footer = () => {
           <i className="fab fa-instagram"></i>
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/muhammad-mutahir-38462125a/"
           target="_blank"
           rel="noopener noreferrer"
           className="icon-link"
@@ -48,7 +48,7 @@ const Footer = () => {
           <i className="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://whatsapp.com"
+          href="https://wa.me/+923133978318"
           target="_blank"
           rel="noopener noreferrer"
           className="icon-link"
