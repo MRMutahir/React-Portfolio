@@ -5,13 +5,12 @@ import linkedin from "../../img/linkedin.png";
 import instagram from "../../img/instagram.png";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import Floating from "../Floating/Floating.jsx";
 import { motion } from "framer-motion";
-import MuhammadMutahir from "../../mrimages/MuhammadMutahir.png";
+import pic3 from "../../mrimages/pic3-hd.png";
 import pic2 from "../../mrimages/pic2.png";
 import { type } from "@testing-library/user-event/dist/type";
 
@@ -21,7 +20,7 @@ function Intro() {
     <div className="Intro">
       <div className="i-left">
         <div className="i-name">
-          <span>Hy! I Am </span>
+          <span>SALAM ! I Am </span>
           <span>Muhammad Mutahir</span>
           <span>
             {"Intro "}

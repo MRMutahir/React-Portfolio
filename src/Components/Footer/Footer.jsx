@@ -58,7 +58,7 @@ const Footer = () => {
 
         <a href="/" className="icon-link">
           <Link smooth={true} spy={true} to="Navbar" activeClass="activeClass">
-            <i className="fas fa-home"></i>
+            <i className="fas fa-home icon-link"></i>
           </Link>
         </a>
       </div>

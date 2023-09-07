@@ -11,7 +11,7 @@ function Navbar() {
       </div>
       <div className="n-right">
         <div className="n-list">
-          <ul style={{ listStyle: "none" }}>
+          <ul>
             <Link
               spy={true}
               to="Navbar"
@@ -29,7 +29,9 @@ function Navbar() {
               {" "}
               <li>Serivces</li>
             </Link>
+
             <Link
+              style={{ cursor: "pointer" }}
               spy={true}
               to="experience"
               smooth={true}
@@ -38,33 +40,11 @@ function Navbar() {
               {" "}
               <li>Experience</li>
             </Link>
-            <Link
-              spy={true}
-              to="recentProject"
-              smooth={true}
-              activeClass="activeClass"
-            >
-              {" "}
-              <li>Protfolio</li>
-            </Link>
-            <Link
-              spy={true}
-              to="ProgressBar"
-              smooth={true}
-              activeClass="activeClass"
-            >
-              {" "}
-              <li>Progress</li>
-            </Link>
 
-            <Link
-              spy={true}
-              to="contact"
-              smooth={true}
-              activeClass="activeClass"
-            >
-              <button className="button n-button">Contact</button>
-            </Link>
+            <li>Protfolio</li>
+            <li>Progress</li>
+
+            <button className="button n-button">Contact</button>
           </ul>
         </div>
       </div>
