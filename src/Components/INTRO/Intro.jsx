@@ -13,6 +13,7 @@ import { motion } from "framer-motion";
 import pic3 from "../../mrimages/pic3-hd.png";
 import pic2 from "../../mrimages/pic2.png";
 import { type } from "@testing-library/user-event/dist/type";
+import Resume from "../INTRO/mern stack.pdf_20230904_141453_0000.pdf.pdf";
 
 function Intro() {
   const transition = { duration: 2, type: "spring" };
@@ -28,7 +29,9 @@ function Intro() {
             and development, producting the Quality work .
           </span>
         </div>
-        <button className="button i-button">Hire me </button>
+        <a href={Resume} download>
+          <button className="button i-button">Hire me </button>
+        </a>
 
         <div className="i-icons">
           <a href="https://github.com/MRMutahir" target="_blank">

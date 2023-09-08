@@ -16,6 +16,10 @@ function RecentProject() {
     <div className="r-Project" id="recentProject">
       <span>Recent Project</span>
       <span>Portfolio</span>
+      <a href="https://github.com/MRMutahir/" target="_blank">
+        {" "}
+        <button className="button">All Project</button>
+      </a>
       <Swiper
         spaceBetween={30}
         slidesPerView={3}
@@ -31,7 +35,7 @@ function RecentProject() {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="lnkd.in/d6j-2RJg" target="_blank">
+          <a href="https://onlinestore-8d926.web.app/" target="_blank">
             {" "}
             <img src={onlinesShopReact} alt="" />
           </a>
@@ -50,7 +54,7 @@ function RecentProject() {
         </SwiperSlide>
         <SwiperSlide>
           <a
-            href="https://mrmutahir.github.io/Guse-any-Number/"
+            href="https://aesthetic-valkyrie-163b4a.netlify.app/"
             target="_blank"
           >
             {" "}
