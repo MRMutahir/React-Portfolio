@@ -32,3 +32,25 @@
 .fab {
   font-size: 32px;
 }
+
+/* Your existing CSS code */
+
+/* Media query for screens with a maximum width of 480px */
+@media screen and (max-width: 480px) {
+  .footer {
+    /* Adjust styles for smaller screens */
+    width: 100%; /* Full width */
+    padding: 10px; /* Reduce padding */
+    height: auto; /* Remove fixed height */
+    margin-left: 0; /* Remove margin */
+  }
+
+  .icon-link {
+    font-size: 18px; /* Decrease font size */
+    margin: 0 5px; /* Reduce margin */
+  }
+
+  .fab {
+    font-size: 24px; /* Decrease font size */
+  }
+}

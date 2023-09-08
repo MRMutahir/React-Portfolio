@@ -9,6 +9,7 @@ import Bloggingweb from "../../projectimage/bloggingweb.jpg";
 import onlinesShopReact from "../../projectimage/e-commerce-react.jpg";
 import VideoSharingapp from "../../projectimage/videoappmongodb.jpg";
 import Dicereact from "../../projectimage/DiceReact.jpg";
+import GuessNumberJS from "../../projectimage/gusenumber.jpg";
 
 function RecentProject() {
   return (
@@ -22,16 +23,39 @@ function RecentProject() {
         className="Portfolio-slider"
       >
         <SwiperSlide>
-          <img src={VideoSharingapp} alt="" />
+          <a
+            href="https://github.com/MRMutahir/Video-Sharing-app.git"
+            target="_blank"
+          >
+            <img src={VideoSharingapp} alt="" />
+          </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={onlinesShopReact} alt="" />
+          <a href="lnkd.in/d6j-2RJg" target="_blank">
+            {" "}
+            <img src={onlinesShopReact} alt="" />
+          </a>
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={Bloggingweb} alt="" />
+          <a href="https://blogs-app-js-firebase.vercel.app/" target="_blank">
+            {" "}
+            <img src={Bloggingweb} alt="" />
+          </a>
         </SwiperSlide>{" "}
         <SwiperSlide>
-          <img src={Dicereact} alt="" />
+          <a href="https://mrmutahir.github.io/RoolDice/" target="_blank">
+            {" "}
+            <img src={Dicereact} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a
+            href="https://mrmutahir.github.io/Guse-any-Number/"
+            target="_blank"
+          >
+            {" "}
+            <img src={GuessNumberJS} alt="" />
+          </a>
         </SwiperSlide>
       </Swiper>
     </div>

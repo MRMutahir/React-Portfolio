@@ -16,50 +16,9 @@
   color: #333;
 }
 
-/* Define different background colors for each progress bar */
-.progress:nth-child(1) div {
-  background-color: #ffc107;
-  /* Yellow */
-}
-
 .progress:nth-child(2) div {
   background-color: #2196f3;
   /* Green */
-}
-
-.progress:nth-child(3) div {
-  background-color: #42a5f5;
-  /* Blue */
-}
-
-.progress:nth-child(4) div {
-  background-color: #4caf50;
-  /* Green */
-}
-
-.progress:nth-child(5) div {
-  background-color: #f44336;
-  /* Red */
-}
-
-.progress:nth-child(6) div {
-  background-color: #9c27b0;
-  /* Purple */
-}
-
-.progress:nth-child(7) div {
-  background-color: #673ab7;
-  /* Deep Purple */
-}
-
-.progress:nth-child(8) div {
-  background-color: #3f51b5;
-  /* Indigo */
-}
-
-.progress:nth-child(9) div {
-  background-color: #2196f3;
-  /* Light Blue */
 }
 
 /* Add more colors as needed for other progress bars */
@@ -73,7 +32,7 @@
   /* Gray to Orange */
 }
 
-@keyframes h2Animation {
+/* @keyframes h2Animation {
   from {
     font-size: 20px;
     font-weight: bold;
@@ -83,7 +42,7 @@
     font-size: 24px;
     font-weight: 700;
   }
-}
+} */
 
 .progress div {
   height: 20px;
