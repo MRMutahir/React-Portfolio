@@ -28,7 +28,7 @@ function Services() {
           ispum is simpley dummy text of printing
         </span>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          <button className="button s-button">Download</button>
         </a>
       </div>
       <div className="s-right cards">
