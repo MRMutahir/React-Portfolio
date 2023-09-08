@@ -86,9 +86,9 @@
   }
 
   .s-button {
-    width: 6rem; /* Decrease the width of the button */
-    height: 1.5rem; /* Decrease the height of the button */
-    margin-top: 0.5rem; /* Adjust the margin */
+    height: 4rem;
+    margin-top: 1rem;
+    width: 10rem;
   }
 
   .s-right {

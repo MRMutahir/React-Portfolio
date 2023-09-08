@@ -36,7 +36,7 @@
 }
 .i-button {
   width: 7rem !important;
-  height: 2rem;
+  height: 3rem;
 }
 
 .i-icons {
@@ -73,10 +73,11 @@
   bottom: 7rem;
   height: 20rem; */
   /* right: 10%; */
-  top: 2rem;
   bottom: 12rem;
   height: 18rem;
-  left: 12rem;
+  left: 11rem;
+  top: 3rem;
+  border-radius: 100%;
   -webkit-transform: scale(1.4);
   transform: scale(2.1);
 }

@@ -4,14 +4,14 @@
   flex-direction: column;
   text-align: center;
   position: absolute;
-  height: 16rem;
+  height: 15rem;
   width: 10rem;
   gap: 1rem;
   background: rgba(255, 255, 255, 0.26);
   border: 7px solid var(--orangeCard);
   box-shadow: var(--orangeCard);
   border-radius: 20px;
-  padding: 0px 26px 3rem 26px;
+  padding: 0px 26px 5rem 26px;
 }
 .card :nth-child(3) {
   color: var(--gray);
