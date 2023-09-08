@@ -82,6 +82,26 @@
   background: #f5c32c;
   left: 22rem;
   top: 10rem;
-  /* z-index: -3; */
-  /* z-index: 2; */
+}
+
+@media screen and (max-width: 480px) {
+  .experience {
+    padding: 0 1rem; /* Reduce horizontal padding */
+    flex-direction: column; /* Change flex direction to stack vertically */
+    height: auto; /* Remove fixed height */
+    margin-top: 192vh; /* Adjust top margin */
+  }
+  .w-mainCircle {
+    left: -3rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top: 5rem;
+    background-color: white;
+    z-index: 2;
+    transform: scale(0.8);
+    margin: 0rem 0rem 8rem 0rem;
+  }
 }

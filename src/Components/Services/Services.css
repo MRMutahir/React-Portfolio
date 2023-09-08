@@ -46,3 +46,63 @@
 /* .s-right > :nth-child(2) {
   top: 20rem;
 } */
+/* @media screen and (max-width: 480px) {
+  .Services {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    position: relative;
+    top: -234px;
+  }
+  .s-right {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10rem;
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .Services {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    position: relative;
+    top: -234px;
+  }
+  .s-left > :nth-child(1) {
+    font-size: 2rem;
+    top: 2rem; /* Decrease the font size for the first child */
+  }
+
+  .s-left > :nth-child(2) {
+    font-size: 2rem;
+    top: 10rem; /* Decrease the font size for the second child */
+  }
+
+  .s-left > :nth-child(3) {
+    font-size: 12px; /* Decrease the font size for the third child */
+    margin-top: 0.5rem; /* Adjust the margin */
+  }
+
+  .s-button {
+    width: 6rem; /* Decrease the width of the button */
+    height: 1.5rem; /* Decrease the height of the button */
+    margin-top: 0.5rem; /* Adjust the margin */
+  }
+
+  .s-right {
+    position: relative;
+    top: 3rem;
+    left: -2rem;
+    /* top: 20rem;
+    left: 1rem; Remove 'relative' positioning */
+  }
+
+  .s-right > * {
+    position: static;
+    padding: 160px 0px 180px 0px;
+    left: -2rem;
+    /* Remove 'absolute' positioning */
+  }
+}

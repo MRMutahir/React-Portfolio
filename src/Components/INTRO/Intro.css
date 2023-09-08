@@ -69,7 +69,7 @@
 
 .i-right > :nth-child(3) {
   transform: scale(1.4);
-  left:5rem;
+  left: 5rem;
   bottom: 7rem;
   height: 20rem;
   /* right: 10%; */
@@ -92,4 +92,15 @@
   top: -18%;
   left: 56%;
   height: 14rem;
+}
+@media screen and (max-width: 480px) {
+  .Intro {
+    flex-direction: column;
+    gap: 7rem;
+    height: 64rem;
+  }
+  .i-right {
+    transform: scale(0.8);
+    left: -60px;
+  }
 }
